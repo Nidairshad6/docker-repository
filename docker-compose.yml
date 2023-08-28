@@ -2,6 +2,5 @@ version: '3'
 services:
   nodejs-app: 
     build: app.js
-      dockerfile: Dockerfile
     ports:
       - '80:80'
